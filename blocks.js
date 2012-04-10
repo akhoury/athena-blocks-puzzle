@@ -1,9 +1,6 @@
 /*
 
 
-Aziz khoury
-12/1/2011
-
 Blocks puzzle
 Your niece was given a set of blocks for her birthday, and she has decided to build a panel using 
 3”×1” and 4.5”×1" blocks. For structural integrity, the spaces between the blocks must not line up
@@ -27,8 +24,8 @@ running time, and the kind of machine on which you ran it.
 
 
 Solution for a 48x10 Panel: 806844323190414
-Running time: 				0.035 seconds
-System:						Intel i5-2410M 2.3GHz, 4GB RAM, 64bit Win 7
+Running time:	0.035 seconds
+System:	Intel i5-2410M 2.3GHz, 4GB RAM, 64bit Win 7
 
 after some online reasearch
 found a C version runs in 0.1s
@@ -40,7 +37,7 @@ Requirements to run the program:
 Node.js needs to be installed; 
 	which can be downloaded for free from: 	http://www.nodejs.org/#download
 After install, just use a terminal to excute: 
-	node ~path/athena.txt 48 10 	
+	node ~path/athena.js 48 10 	
 Or you can just copy the whole text and paste it in Chrome's Inspect Element console, 
 but it may become slower to execute and you have to manually change the sampleWidth
 and the sampleHeight values below for the desired values.
